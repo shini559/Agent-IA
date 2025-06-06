@@ -1,0 +1,133 @@
+# Description : Depuis 2016, la Région déploie des Espaces Innovation Partagés (EIP) situés dans des établissements d'enseignement secondaire public de la région. Ce sont des lieux équipés techniquement, assimilés à des Fablabs éducatifs, réservés aux élèves et partenaires extérieurs. La Région aménage les locaux, fournit le matériel manuel, numérique ou technique et forme les utilisateurs aux outils numériques de fabrication. Ce réseau de plus de 80 espaces contribue pleinement à REV3 via des projets technologiques et sociétaux.
+# Les EIP se structurent autour de deux espaces : un espace de prototypage avec équipements innovants et outillage traditionnel, et un espace de créativité convivial favorisant échanges et création collaborative avec l’équipe pédagogique ou des intervenants extérieurs.
+# Données d’avancement des projets par établissement de 2020 à 2024.
+# Plus d'informations : (non fournie)
+#
+# Thématique(s) : FORMATION
+# Mots-Clés : EDUCATION, FORMATION, POLITIQUE EDUCATIVE, ESPACE D'INNOVATION PARTAGEE, EIP, QUALIFICATION, REV3, LYCEE, FABLAB, REGION32
+# Mots-Clés de lieu : HAUTS-DE-FRANCE, AISNE, OISE, NORD, SOMME, PAS DE CALAIS
+# Conditions d'utilisation : Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour
+# Données ouvertes : oui
+# Source : Données Conseil régional HdF, fournies par la Direction des politiques éducatives
+# Date de création : 2024-05-07
+# Date de mise à jour des données : 2025-01-13
+# Date de mise à jour de la fiche : 2025-02-20
+# Fréquence de mise à jour : Lorsque nécessaire
+# Date de publication : 2023-05-23
+# Langue : Français
+
+code uai,etablissements,villes,statut 2020,statut 2021,statut 2022,statut 2023,statut 2024
+0800001S,Lycée Général et Technologique Boucher de Perthes ,ABBEVILLE,En cours,En cours,Déployé,Déployé,Déployé
+0601782L,Lycée Général et Technologique Agricole de l'Oise,AIRION,Déployé,En cours,Déployé,Déployé,Déployé
+0800013E,Lycée Professionnel Acheuléen ,AMIENS,A prospecter,En cours,Déployé,Déployé,Déployé
+0801327H,Lycée Technologique Edouard Branly ,AMIENS,A prospecter,En cours,En cours,Déployé,Déployé
+0800009A,Lycée général Louis Thuillier,AMIENS,,,,En cours,Déployé
+0801700N,Lycée Général et Technologique Jean Baptiste Delambre,AMIENS,Déployé,Déployé,Déployé,Déployé,Déployé
+0592610S,LP Pierre-Joseph Laurent ,ANICHE,Déployé,Déployé,Déployé,Déployé,Déployé
+0590005K,LP Pierre-Joseph Fontaine ,ANZIN,Déployé,Déployé,Déployé,Déployé,Déployé
+0590011S,LPO Gustave Eiffel,ARMENTIERES,A prospecter,En cours,En cours,En cours,Projet non reçu
+0620011A,LP Jacques Le Caron,ARRAS,Déployé,Déployé,Déployé,Déployé,Déployé
+0620257T,LP Alain Savary-Jules Ferry,ARRAS,Déployé,Déployé,Déployé,Déployé,Déployé
+0590015W,LP Pierre et Marie Curie,AULNOYE-AYMERIES,Déployé,Déployé,Déployé,Déployé,Déployé
+0600002B,Lycée Polyvalent Paul Langevin ,BEAUVAIS,Déployé,Déployé,Déployé,Déployé,Déployé
+0622276M,LPO Jan Lavezzari,BERCK,A prospecter,A prospecter,A prospecter,A prospecter,Projet non reçu
+0620042J,Lycée André Malraux,BETHUNE,Déployé,Déployé,Déployé,Déployé,Déployé
+0620040G,Lycée Louis Blaringhem,BETHUNE,A prospecter,A prospecter,En cours,Déployé,Déployé
+0620043K,LP Salvador Allende ,BETHUNE,En cours,En cours,En cours,En cours,Déployé
+0620052V,LPO Edouard Branly,BOULOGNE-SUR-MER,En cours,En cours,En cours,En cours,Projet non reçu
+0601787S,Lycée Professionnel Roberval ,BREUIL LE VERT,A prospecter,A prospecter,A prospecter,A prospecter,Projet non reçu
+0620056Z,LPO Carnot,BRUAY-LA-BUISSIERE,En cours,En cours,En cours,Déployé,Déployé
+0620192X,LP Pierre Mendès France ,BRUAY-LA-BUISSIERE,Déployé,Déployé,Déployé,Déployé,Déployé
+0622801H,LP des Travaux Publics J. Bertin,BRUAY-LA-BUISSIERE,Contact pris,En cours,Déployé,Déployé,Déployé
+0620188T,LP du Détroit,CALAIS,Contact pris,Contact pris,Contact pris,Contact pris,Projet non reçu
+0624141P,LPO Léonard de Vinci,CALAIS,Contact pris,Contact pris,Déployé,Déployé,Déployé
+0590034S,Lycée Paul Duez,CAMBRAI,Déployé,Déployé,Déployé,Déployé,Déployé
+0592611T,LP Louis Bleriot,CAMBRAI,Déployé,Déployé,Déployé,Déployé,Déployé
+0620070P,Lycée Diderot,CARVIN,Déployé,Déployé,Déployé,Déployé,Déployé
+0590044C,Lycée Joseph-Marie Jacquard,CAUDRY,Déployé,Déployé,Déployé,Déployé,Déployé
+0601845E,Lycée Professionnel de la Forêt,CHANTILLY,Contact pris,Contact pris,Contact pris,Contact pris,Projet non reçu
+0021939X,Lycée Polyvalent Jules Verne ,CHATEAU THIERRY,A prospecter,Contact pris,En cours,Déployé,Déployé
+0020014E,Lycée Géneral et Technologique Gay Lussac ,CHAUNY,A prospecter,A prospecter,A prospecter,A prospecter,Projet non reçu
+0600013N,Lycée Général et Technologique Cassini ,CLERMONT de l'OISE,A prospecter,A prospecter,A prospecter,A prospecter,Projet non reçu
+0600014P,Lycée Général et Technologique Pierre d'Ailly ,COMPIEGNE,Contact pris,Déployé,Déployé,Déployé,Déployé
+0600015R,Lycée Général et Technologique Mireille Grenet ,COMPIEGNE,Déployé,Déployé,Déployé,Déployé,Déployé
+0600063T,Lycée Professionnel Jules Uhry ,CREIL,A prospecter,A prospecter,A prospecter,A prospecter,Projet non reçu
+0601363F,Lycée Professionnel Robert Desnos ,CREPY-EN-VALOIS,A prospecter,A prospecter,En cours,Déployé,Déployé
+0601832R,Lycée Général et Technologique Jean Monnet ,CREPY-EN-VALOIS,A prospecter,A prospecter,En cours,Déployé,Déployé
+0590060V,Lycée Alfred Kastler ,DENAIN,Déployé,Déployé,Déployé,Déployé,Déployé
+0590064Z,lycée Jean-Baptiste Corot,DOUAI,Déployé,Déployé,Déployé,Déployé,Déployé
+0590265T,LP Edmond Labbé,DOUAI,Déployé,Déployé,Déployé,Déployé,Déployé
+0593255T,Lycée de la nature et des biotechnologies,DOUAI,Déployé,Déployé,Déployé,Déployé,Déployé
+0596892W,Lycée d'Excellence Edgar Morin ,DOUAI,Déployé,Déployé,Déployé,Déployé,Déployé
+0597005U,LPO Val de Lys,ESTAIRES,Déployé,Déployé,Déployé,Déployé,Déployé
+0620187S,LP Jules Verne,ETAPLES,Déployé,Déployé,Déployé,Déployé,Déployé
+0801704T,Lycée Professionnel Alfred Manessier ,FLIXECOURT,A prospecter,En cours,En cours,Déployé,Déployé
+0021522U,Lycée d'Enseignement Général et Technologique Agricole de la Thiérache ,FONTAINE LES VERVINS,Déployé,Déployé,Déployé,Déployé,Déployé
+0590083V,LPO Camille Claudel,FOURMIES,Déployé,Déployé,Déployé,Déployé,Déployé
+0801864S,Lycée Polyvalent du Vimeu ,FRIVILLE-ESCARBOTIN,A prospecter,A prospecter,A prospecter,A prospecter,Projet non reçu
+0594652L,LP des Plaines du Nord,GRANDE-SYNTHE,En cours,Déployé,Déployé,Déployé,Déployé
+0601897L,Lycée Professionnel Jules Verne ,GRANDVILLIERS,A prospecter,A prospecter,En cours,Déployé,Déployé
+0021479X,Lycée Professionnel Fançoise Dolto ,GUISE,A prospecter,A prospecter,A prospecter,A prospecter,Projet non reçu
+0592850C,Lycée Professionnel Antoine de Saint Exuypéry ,HALLUIN,,,,A prospecter,Déployé
+0801252B,Lycée Professionnel Jean-Charles Athanase Peltier,HAM,A prospecter,A prospecter,A prospecter,A prospecter,Déployé
+0590093F,LPO Beaupré,HAUBOURDIN,Déployé,Déployé,Déployé,Déployé,Déployé
+0590101P,Lycée des Flandres,HAZEBOURCK,,,,A prospecter,Déployé
+0620095S,Lycée Louis Pasteur,HENIN-BEAUMONT,Déployé,Déployé,Déployé,Déployé,Déployé
+0623328F,LP Henri Senez,HENIN-BEAUMONT,Contact pris,Contact pris,Contact pris,Contact pris,Projet non reçu
+0592712C,LP Louis Armand,JEUMONT,Contact pris,Déployé,Déployé,Déployé,Déployé
+0590122M,LPO Valentine Labbé,LA MADELEINE,Déployé,Déployé,Déployé,Déployé,Déployé
+0020034B,Lycée Polyvalent Pierre Méchain,LAON,Déployé,Déployé,Déployé,Déployé,Déployé
+0020078Z,Lycée Professionnel Julie Daubié ,LAON,A prospecter,En cours,Déployé,Déployé,Déployé
+0620108F,Lycée Condorcet,LENS,Déployé,Déployé,Déployé,Déployé,Déployé
+0620109G,Lycée Auguste Béhal,LENS,Déployé,Déployé,Déployé,Déployé,Déployé
+0622807P,Lycée Hôtelier,LE-TOUQUET-PARIS-PLAGE,Déployé,Déployé,Déployé,Déployé,Déployé
+0623377J,LP François Hennebique,LIEVIN,Déployé,Déployé,Déployé,Déployé,Déployé
+0590117G,Lycée Louis Pasteur,LILLE,Déployé,Déployé,Déployé,Déployé,Déployé
+0590119J,Lycée Faidherbe,LILLE,A prospecter,A prospecter,En cours,Déployé,Déployé
+0590121L,Lycée César Baggio,LILLE,Déployé,Déployé,Déployé,Déployé,Déployé
+0620121V,LP Flora Tristan,LILLERS,Déployé,Déployé,Déployé,Déployé,Déployé
+0593395V,EPLEFPA des Flandres - site LEGTPA LOMME,LOMME,Déployé,Déployé,Déployé,Déployé,Déployé
+0590111A,LP Sonia Delaunay,LOMME ,Déployé,Déployé,Déployé,Déployé,Déployé
+0595786U,Lycée Jean Prouvé,"LOMME
+",Déployé,En cours,Déployé,Déployé,Déployé
+0622803K,Lycée Blaise Pascal,LONGUENESSE,Déployé,Déployé,Déployé,Déployé,Déployé
+0620124Y,LP Bernard Chochoy,LUMBRES,Contact pris,Contact pris,Contact pris,Contact pris,Projet non reçu
+0594302F,LP François Mansart,MARLY,Contact pris,Déployé,Déployé,Déployé,Déployé
+0590149S,Lycée Pierre Forest,MAUBEUGE,Contact pris,Déployé,Déployé,Déployé,Déployé
+0601470X,Lycée Professionnel Lavoisier ,MERU,Déployé,Déployé,Déployé,Déployé,Déployé
+0601864A,Lycée Général et Technologique André Malraux ,MONTATAIRE,En cours,En cours,Déployé,Déployé,Déployé
+0601870G,LP André Malraux ,MONTATAIRE,En cours,En cours,Déployé,Déployé,Déployé
+0801853E,Lycée Polyvalent Jean Racine ,MONTDIDIER,En cours,Déployé,Déployé,Déployé,Déployé
+0600020W,Lycée Général et Technologique Marie Curie ,NOGENT-SUR-OISE,Contact pris,Contact pris,Déployé,Déployé,Déployé
+0600040T,Lycée Général et Technologique Jean Calvin,NOYON,En cours,En cours,Déployé,Déployé,Déployé
+0600041U,Lycée Professionnel Charles de Bovelles ,NOYON,A prospecter,Contact pris,En cours,Déployé,Déployé
+0620150B,LP Joliot Curie,OIGNIES,En cours,Contact pris,Contact pris,Contact pris,Projet non reçu
+0620221D,LP Professeur Clerc,OUTREAU,Déployé,Déployé,Déployé,Déployé,Déployé
+0801514L,Lycée Professionnel Pierre Mendès France ,PERONNE,Déployé,Déployé,Déployé,Déployé,Déployé
+0595771C,"LP HORTICOLE 
+LPA  Valenciennes Raismes",RAISMES,Déployé,Déployé,Déployé,Déployé,Déployé
+0601822E,Lycée Professionnel Arthur Rimbaud ,RIBECOURT-DRESLINCOURT,Déployé,Déployé,Déployé,Déployé,Déployé
+0590184E,Lycée Jean Rostand,ROUBAIX,Contact pris,Déployé,Déployé,Déployé,Déployé
+0590186G,LP Turgot ,ROUBAIX,Déployé,Déployé,Déployé,Déployé,Déployé
+0590189K,LP Lavoisier,ROUBAIX,A prospecter,En cours,En cours,Déployé,Déployé
+0590187H,LP Louis Loucheur ,ROUBAIX,Déployé,Déployé,Déployé,Déployé,Déployé
+0594391C,Ecole Supérieure Arts Appliqués Textile (ESAAT),ROUBAIX,Déployé,Déployé,Déployé,Déployé,Déployé
+0801739F,Lycée Professionnel du Marquenterre ,RUE,Déployé,Déployé,Déployé,Déployé,Déployé
+0590192N,Lycée Ernest Couteaux,SAINT-AMAND-LES-EAUX,Déployé,Déployé,Déployé,Déployé,Déployé
+0624109E,LPO Giraux Sannier,SAINT-MARTIN-BOULOGNE,,,,Déployé,Déployé
+0600048B,Lycée Professionnel Donation de Rothschild ,SAINT-MAXIMIN,A prospecter,En cours,En cours,Déployé,Déployé
+0620161N,Lycée Alexandre Ribot,SAINT-OMER,Déployé,Déployé,Déployé,Déployé,Déployé
+0620162P,Lycée du Pays de Saint Omer  ,SAINT-OMER,Contact pris,Déployé,Déployé,Déployé,Déployé
+0620167V,LP Pierre Mendès France ,SAINT-POL-SUR-TERNOISE,Contact pris,Contact pris,Contact pris,Contact pris,Projet non reçu
+0020050U,Lycée Général et Technologique Condorcet ,SAINT-QUENTIN,Déployé,Déployé,Déployé,Déployé,Déployé
+0020051V,Lycée des Métiers d'Art,SAINT-QUENTIN,,,,Contact pris,Déployé
+0600049C,Lycée Professionnel Amyot d'Inville ,SENLIS,A prospecter,A prospecter,A prospecter,En cours,Déployé
+0021476U,Lycée Polyvalent Léonard de Vinci ,SOISSONS,Déployé,Déployé,Déployé,Déployé,Déployé
+0022044L,Lycée Polyvalent Le Corbusier,SOISSONS,Contact pris,En cours,Déployé,Déployé,Déployé
+0590207E,Lycée Louis Pasteur,SOMAIN,Déployé,Déployé,Déployé,Déployé,Déployé
+0622257S,LEGTA du Pas-de-Calais - Site Tilloy-lès-Mofflaines,TILLOY-LES-MOFFLAINES,A prospecter,Contact pris,Contact pris,Contact pris,Projet non reçu
+0590214M,LPO Colbert,TOURCOING,En cours,En cours,En cours,En cours,Projet non reçu
+0590215N,Lycée Sévigné,TOURCOING,Déployé,Déployé,Déployé,Déployé,Déployé
+0590216P,LP Le Corbusier,TOURCOING,Contact pris,En cours,En cours,En cours,Projet non reçu
+0595678B,LP Leonard de Vinci,TRITH-ST-LEGER,Déployé,Déployé,Déployé,Déployé,Déployé
+0590270Y,LP du Hainaut,VALENCIENNES,Déployé,Déployé,Déployé,Déployé,Déployé
