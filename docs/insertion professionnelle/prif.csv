@@ -1,0 +1,41 @@
+# Description : Les espaces Proch’Info-Formation régionaux sont des lieux d’accueil de proximité permettant de regrouper toutes les informations nécessaires aux actifs et aux entreprises pour qu’ils puissent s’informer sur l’orientation, la reconversion professionnelle, les métiers, les offres de formation, les conditions d’accès et les perspectives d’emploi sur le marché du travail.
+# Plus d'information : https://www.hautsdefrance.fr/prochinfo-formation/
+#
+# Thématique(s) : EMPLOI
+# Mots-Clés : EMPLOI, FORMATION, ENTREPRISE, PLATE FORME, PRIF, MARCHE DU TRAVAIL, ORIENTATION, RECONVERSION, REGION32
+# Mots-Clés de lieu : HAUTS-DE-FRANCE, AISNE, OISE, NORD, SOMME, PAS DE CALAIS
+# Conditions d'utilisation : Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour
+# Données ouvertes : oui
+# Source : Données fournies par la Direction Proch'emploi - Espaces Proch’Info-Formation (géolocalisation à l'adresse, 2022-03)
+# Date de création : 2024-05-06
+# Date de mise à jour des données : -
+# Date de mise à jour de la fiche : 2025-04-22
+# Fréquence de mise à jour : Lorsque nécessaire
+# Date de publication : 2022-03-28
+# Langue : Français
+
+gml_id,id,struct_acc,adresse,cp,code_insee,commune,tel,mail,nom_prif,date_maj
+prif.1,"1",Maison de l'Emploi et de la Formation du Pays du Grand Laonnois,4A avenue Carnot,"02000","02408",LAON,0800 026 080,laon@prochinfo-formation.fr,Laon Proch'info formation,2024/01/29
+prif.2,"2",Association Itinéraire Emploi,58 Boulevard Victor Hugo,"02100","02691",SAINT-QUENTIN,0800 026 080,saint-quentin@prochinfo-formation.fr,Saint-Quentin Proch'info formation,2024/01/29
+prif.3,"3",Maison de l'Emploi et de la Formation du Pays Chaunois,6F rue de la Bonneterie - ZAC du Riez,"02700","02738",TERGNIER,0800 026 080,chauny-tergnier@prochinfo-formation.fr,Tergnier Proch'info formation,2024/01/29
+prif.4,"4","Mission Locale du Clermontois, du Liancourtois et de la vallée du Thérain",3 Rue Gerard Philipe,"60600","60157",CLERMONT,0800 026 080,clermont@prochinfo-formation.fr,Clermont Proch'info formation,2024/01/29
+prif.5,"5",Maison de l'Emploi et de la Formation du Pays du Grand Beauvaisis,13 rue Jean Monnet,"60008","60057",BEAUVAIS,0800 026 080,beauvais@prochinfo-formation.fr,Beauvais Proch'info formation,2024/01/29
+prif.6,"6",Maison de l'Emploi et de la Formation du Sud Ouest de l'Oise,5 - 7 Rue Aristide Briand,"60110","60395",MERU,0800 026 080,meru@prochinfo-formation.fr,Méru Proch'info formation,2024/02/07
+prif.7,"7",Mission Locale de la Picardie Maritime,82 rue Saint Gilles,"80100","80001",ABBEVILLE,0800 026 080,abbeville@prochinfo-formation.fr,Abbeville Proch'info formation,2024/01/29
+prif.8,"8",Mission Locale Insertion Formation Emploi du Grand Amiénois,10 rue Gresset - BP 80419 Cedex 1,"80004","80021",AMIENS,0800 026 080,amiens@prochinfo-formation.fr,Amiens Proch'info formation,2024/01/29
+prif.9,"9",Maison Entreprise Emploi Formation Santerre Haute Somme,8 rue de la Madeleine,"80200","80620",PERONNE,0800 026 080,peronne@prochinfo-formation.fr,Péronne Proch'info formation,2024/01/29
+prif.10,"10",Mission locale Montreuil Côte d'Opale,17 rue Sainte-Austreberthe,"62170","62588",MONTREUIL-SUR-MER,0800 026 080,montreuil@prochinfo-formation.fr,Montreuil Proch'info formation,2024/02/07
+prif.11,"11",La Maison de l'Emploi et des Métiers en Pays d'Artois,13 ter boulevard Robert Schuman,"62000","62041",ARRAS,0800 026 080,arras@prochinfo-formation.fr,Arras Proch'info formation,2024/01/29
+prif.12,"12",Mission Locale de l'Artois,41 rue Pierre Beregovoy,"62700","62178",BRUAY-LA-BUISSIERE,0800 026 080,bethune@prochinfo-formation.fr,Béthune Bruay Proch'info formation,2024/01/29
+prif.13,"13",Mission Locale Rurale Ternois Haut-Pays,1 rue des Procureurs,"62130","62767",SAINT-POL-SUR-TERNOISE,0800 026 080,saint-pol-sur-ternoise@prochinfo-formation.fr,Saint-Pol-sur-Ternoise Proch'info formation,2024/01/29
+prif.14,"14",Mission Locale Rurale Ternois Haut-Pays - ADEFi,16 Place Victor Hugo,"62500","62765",SAINT-OMER,0800 026 080,saint-omer@prochinfo-formation.fr,St Omer Proch'info formation,2024/02/07
+prif.15,"15",Maison de l'emploi Lens Liévin Hénin Carvin,91 rue Jean Jaurès,"62803","62510",LIEVIN,0800 026 080,lens-lievin-henin-carvin@prochinfo-formation.fr,Lens Liévin Proch'info formation,2024/01/29
+prif.16,"16",La fabrique DEFI - Maison de l'emploi et de la formation,21 rue Mollien - BP 17,"62101","62193",CALAIS,0800 026 080,calais@prochinfo-formation.fr,Calais Proch'info formation,2024/01/29
+prif.17,"17",AMIE du Boulonnais,7 Rue Basse des Tintelleries,"62200","62160",BOULOGNE SUR MER,0800 026 080,boulogne@prochinfo-formation.fr,Boulogne Proch'info formation,2024/02/07
+prif.18,"18",Maison de l'Initiative et de l'Emploi du Roubaisis,78 b Bld du Général Leclerc,"59100","59512",ROUBAIX,0800 026 080,prochinformation@mie-roubaix.fr,Lille Proch'info formation,2024/01/29
+prif.19,"19",Cambrésis emploi,"Bâtiment ""Espace Cambrésis"" - 14 rue Neuve - BP 70318","59404","59122",CAMBRAI,0800 026 080,cambrai@prochinfo-formation.fr,Cambrai Proch'info formation,2024/01/29
+prif.20,"20",ML du Douaisis,222 Place du Barlet,"59500","59178",DOUAI,0800 026 080,douai@prochinfo-formation.fr,Douai Proch'info formation,2024/01/29
+prif.21,"21",Réussir en Sambre Maubeuge,20 avenue Alphonse de Lamartine BP 40247,"59600","59392",MAUBEUGE,0800 026 080,maubeuge@prochinfo-formation.fr,Maubeuge Proch'info formation,2024/01/29
+prif.22,"22",ML du Valenciennois,35 rue Ernest Macarez,"59300","59606",VALENCIENNES,0800 026 080,valenciennes@prochinfo-formation.fr,Valenciennes Proch'info formation,2024/01/29
+prif.23,"23",Mission locale Flandre Intérieure,14 rue louis Warein,"59190","59295",HAZEBROUCK,0800 026 080,hazebrouck@prochinfo-formation.fr,Flandre Intérieure Proch'info formation,2024/01/29
+prif.24,"24",Entreprendre Ensemble,66 rue des Chantiers de France - cedex 1,"59651","59183",DUNKERQUE,0800 026 080,dunkerque@prochinfo-formation.fr,Dunkerque Proch'info formation,2024/01/29
