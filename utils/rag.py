@@ -1,4 +1,7 @@
 import os
+import shutil
+import time
+from typing import List, Optional
 from dotenv import load_dotenv
 from langchain_community.document_loaders import (
     TextLoader,
@@ -7,165 +10,182 @@ from langchain_community.document_loaders import (
     CSVLoader
 )
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain.docstore.document import Document
-from langchain_community.vectorstores import Chroma
-
-from langchain_ollama import OllamaEmbeddings, ChatOllama
+from langchain_core.documents import Document
+from langchain_chroma import Chroma
+from langchain_ollama import OllamaEmbeddings
+from langchain_deepseek import ChatDeepSeek
 from langchain_core.messages import SystemMessage, HumanMessage
-import shutil
-import gc
-import time
+from langchain_core.retrievers import BaseRetriever
 
 
 class Rag:
-    def __init__(self, docs_folder):
+    def __init__(self, docs_folder: str):
+        """Initialise le système RAG avec le dossier de documents."""
         load_dotenv(override=True)
-        self.model = ChatOllama(model="llama3", temperature=0)
+        
+        # Configuration des modèles
+        self.model = ChatDeepSeek(
+            model="deepseek-chat",
+            api_key=os.getenv("DEEPSEEK_API_KEY"),
+            temperature=0.3  # Un peu de créativité
+        )
         self.embedder = OllamaEmbeddings(model="nomic-embed-text")
-
-        # Get the directory where this script is located
+        
+        # Chemins des fichiers
         script_dir = os.path.dirname(os.path.abspath(__file__))
-        # Go up one level to the project root
         project_root = os.path.dirname(script_dir)
-        # Full path to docs folder
-        self.folders_path = os.path.join(project_root, docs_folder)
+        self.docs_path = os.path.join(project_root, docs_folder)
+        self.db_dir = os.path.join(self.docs_path, "vector_db")
+        
+        # Initialisation de la base vectorielle
+        self._initialize_vector_db()
+        
+    def _initialize_vector_db(self) -> None:
+        """Initialise ou charge la base vectorielle."""
+        if not os.path.exists(self.db_dir):
+            print("🛠️ Création de la base vectorielle...")
+            self._create_vector_db()
+        else:
+            print("🔍 Chargement de la base existante...")
+            self.vector_store = Chroma(
+                persist_directory=self.db_dir,
+                embedding_function=self.embedder
+            )
 
-        print(f"📂 Docs folder path: {self.folders_path}")
-
-    def load_documents_from_folders(self, folders):
-        all_chunks = []
-        print(f"🔍 Scanning folders: {folders}")
-        for folder in os.listdir(folders):
-            if "db" in folder.split("_"):
-                continue
-            path_folder = os.path.join(folders, folder)
-            if not os.path.isdir(path_folder):
-                continue
-            for file_name in os.listdir(path_folder):
-                file_path = os.path.join(path_folder, file_name)
-                if not os.path.isfile(file_path):
-                    continue
-
-                print(f"📄 Loading file: {file_path}")
-                try:
-                    # File type handling
-                    if file_name.endswith(".xlsx"):
-                        loader = UnstructuredExcelLoader(file_path)
-                    elif file_name.endswith(".csv"):
-                        loader = CSVLoader(file_path)
-                    elif file_name.endswith(".pdf"):
-                        loader = PyMuPDFLoader(file_path)
-                    elif file_name.endswith(".txt") or file_name.endswith(".md"):
-                        loader = TextLoader(file_path)
-                    else:
-                        print(f"⏩ Ignored unsupported file: {file_path}")
-                        continue
-
-                    loaded_document = loader.load()
-                    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
-                    chunks = text_splitter.split_documents(loaded_document)
-
-                    for chunk in chunks:
-                        chunk.metadata["source"] = file_path
-                        chunk.metadata["category"] = folder.split("/")[-1]
-
-                    all_chunks.extend(chunks)
-
-                except Exception as e:
-                    print(f"❌ Error loading file {file_path}: {e}")
-        return all_chunks
-
-    def clear_vector_db(self, db_dir):
-        # Force garbage collection to close files/connections
-        gc.collect()
-        # Retry deletion if locked, max 5 attempts
-        for attempt in range(5):
-            try:
-                if os.path.exists(db_dir):
-                    shutil.rmtree(db_dir)
-                    print("🧹 Ancienne base vectorielle supprimée.")
-                else:
-                    print("Pas d'ancienne base vectorielle à supprimer.")
-                return
-            except PermissionError as e:
-                print(f"⚠️ Tentative {attempt+1} - Impossible de supprimer la base vectorielle : {e}")
-                print("  Attente avant nouvelle tentative...")
-                time.sleep(1)
-        print("❌ Échec de suppression de la base vectorielle, vérifier qu'aucun processus ne bloque le fichier.")
-
-    def create_vector_db(self):
-        db_dir = os.path.join(self.folders_path, "vector_db")
-
-        print("🧹 Suppression de l'ancienne base vectorielle...")
-        self.clear_vector_db(db_dir)
-
-        # Chargement des documents
-        all_loaded_chunks = self.load_documents_from_folders(self.folders_path)
-        print("✅ Documents chargés.")
-        print(f"📄 Nombre de chunks à indexer : {len(all_loaded_chunks)}")
-
-        # Création de la base vectorielle
+    def _load_single_document(self, file_path: str, category: str) -> List[Document]:
+        """Charge un seul document avec le loader approprié."""
         try:
-            vector_store = Chroma.from_documents(all_loaded_chunks, self.embedder, persist_directory=db_dir)
-            db = Chroma(persist_directory=db_dir, embedding_function=self.embedder)
-            print("✅ Base vectorielle créée avec succès.")
-            return db
+            if file_path.endswith(".xlsx"):
+                loader = UnstructuredExcelLoader(file_path)
+            elif file_path.endswith(".csv"):
+                loader = CSVLoader(file_path)
+            elif file_path.endswith(".pdf"):
+                loader = PyMuPDFLoader(file_path)
+            elif file_path.endswith((".txt", ".md")):
+                loader = TextLoader(file_path)
+            else:
+                return []
+            
+            docs = loader.load()
+            for doc in docs:
+                doc.metadata.update({
+                    "source": os.path.basename(file_path),
+                    "category": category
+                })
+            return docs
+            
         except Exception as e:
-            print(f"❌ Erreur lors de la création de la base vectorielle : {e}")
-            return None
+            print(f"⚠️ Erreur sur {file_path}: {str(e)}")
+            return []
 
-    def create_retriever(self):
-        db = self.create_vector_db()
-        if db is None:
-            raise RuntimeError("Impossible de créer la base vectorielle, retriever non créé.")
-        retriever = db.as_retriever(search_type="similarity", search_kwargs={"k": 3})
-        self.retriever = retriever
-        return retriever
+    def load_documents(self) -> List[Document]:
+        """Charge tous les documents depuis le dossier configuré."""
+        all_docs = []
+        
+        for category in os.listdir(self.docs_path):
+            if category.startswith(".") or "db" in category.lower():
+                continue
+                
+            category_path = os.path.join(self.docs_path, category)
+            if not os.path.isdir(category_path):
+                continue
+                
+            for file_name in os.listdir(category_path):
+                file_path = os.path.join(category_path, file_name)
+                if os.path.isfile(file_path):
+                    all_docs.extend(self._load_single_document(file_path, category))
+        
+        return all_docs
 
-    def chat_with_rag(self, user_input):
-        if not hasattr(self, "retriever"):
-            self.create_retriever()
+    def _create_vector_db(self) -> None:
+        """Crée une nouvelle base vectorielle."""
+        # Nettoyage préalable
+        self._clean_vector_db()
+        
+        # Chargement et découpage des documents
+        docs = self.load_documents()
+        if not docs:
+            raise ValueError("Aucun document valide trouvé")
+            
+        text_splitter = RecursiveCharacterTextSplitter(
+            chunk_size=1000,
+            chunk_overlap=200,  # Important pour le contexte
+            separators=["\n\n", "\n", " ", ""]
+        )
+        chunks = text_splitter.split_documents(docs)
+        
+        # Création de la base
+        self.vector_store = Chroma.from_documents(
+            documents=chunks,
+            embedding=self.embedder,
+            persist_directory=self.db_dir,
+            collection_metadata={"hnsw:space": "cosine"}  # Optimisation
+        )
+        print(f"✅ Base créée avec {len(chunks)} chunks")
 
-        print("🔍 Recherche des documents pertinents...")
-        relevant_chunks = self.retriever.invoke(user_input)
-        print(f"📄 {len(relevant_chunks)} chunks retrouvés.")
+    def _clean_vector_db(self, max_attempts: int = 3) -> None:
+        """Nettoie le répertoire de la base vectorielle."""
+        for attempt in range(max_attempts):
+            try:
+                if os.path.exists(self.db_dir):
+                    shutil.rmtree(self.db_dir)
+                    print("🧹 Ancienne base supprimée")
+                    time.sleep(1)  # Pause pour le système de fichiers
+                return
+            except Exception as e:
+                print(f"⚠️ Tentative {attempt+1}: {str(e)}")
+                time.sleep(2)
+        raise RuntimeError("Impossible de nettoyer le répertoire")
 
-        if not relevant_chunks:
-            return "❗ Aucun document pertinent trouvé pour cette question."
-
-        input_message = (
-            f"Voici des documents à propos de l'emploi : \n\n"
-            + "\n\n".join([chunk.page_content for chunk in relevant_chunks])
-            + f"\n\nQuestion : {user_input}"
+    def get_retriever(self, k: int = 3) -> BaseRetriever:
+        """Retourne un retriever configuré."""
+        return self.vector_store.as_retriever(
+            search_type="similarity",
+            search_kwargs={"k": k}
         )
 
-        messages = [
-            SystemMessage(content="Tu es un assistant qui aide à retrouver tout type d'informations lié à l'emploi et à l'insertion."),
-            HumanMessage(content=input_message)
-        ]
+    def query(self, question: str, k: int = 3) -> str:
+        """Exécute une requête RAG complète."""
+        retriever = self.get_retriever(k)
+        
+        # Récupération des documents pertinents
+        docs = retriever.invoke(question)
+        if not docs:
+            return "Aucune information pertinente trouvée."
+        
+        # Construction du contexte
+        context = "\n\n---\n\n".join(
+            f"Source: {doc.metadata['source']}\nContenu: {doc.page_content}"
+            for doc in docs
+        )
+        
+        # Génération de la réponse
+        response = self.model.invoke([
+            SystemMessage(content="""Tu es un expert en emploi et formation.
+Réponds de manière précise en t'appuyant sur les documents fournis."""),
+            HumanMessage(content=f"""Contexte:
+{context}
 
-        print("🧠 Envoi au modèle...")
-        try:
-            result = self.model.invoke(messages)
-            print("✅ Réponse générée.")
-            return result.content
-        except Exception as e:
-            print(f"❌ Erreur lors de l'appel au modèle : {e}")
-            return "Erreur lors de la génération de la réponse."
+Question: {question}""")
+        ])
+        
+        # Ajout des sources
+        sources = ", ".join(set(doc.metadata["source"] for doc in docs))
+        return f"{response.content}\n\nSources: {sources}"
 
 
-# --- Exécution de test ---
 if __name__ == "__main__":
-    rag = Rag("docs/")
-
-    retriever = rag.create_retriever()
-    print("📥 Retriever créé.")
-
-    # Test affichage des documents pertinents
-    docs = retriever.invoke("formation Hauts-de-France")
-    for i, doc in enumerate(docs, 1):
-        print(f"--- Document {i} ---\n{doc.page_content[:300]}...\n")
-
-    # Test chat
-    response = rag.chat_with_rag("Cite les organismes de formation en haut de france ?")
-    print("🗣️ Réponse :", response)
+    try:
+        rag = Rag("docs/")
+        
+        while True:
+            question = input("\n💬 Posez votre question (ou 'quit'): ").strip()
+            if question.lower() in ('quit', 'exit', 'q'):
+                break
+                
+            start_time = time.time()
+            response = rag.query(question)
+            print(f"\n🤖 Réponse ({time.time()-start_time:.2f}s):\n{response}")
+            
+    except Exception as e:
+        print(f"❌ Erreur: {str(e)}")
