@@ -1,0 +1,357 @@
+COD_VAR;LIB_VAR;LIB_VAR_LONG;COD_MOD;LIB_MOD;TYPE_VAR;LONG_VAR
+SNHM22;Salaire net horaire moyen en 2022 (€);Salaire net horaire moyen en 2022 (€);;;NUM;16
+SNHMC22;Salaire net hor. Moy. Cadres sup. en 2022 (€);Salaire net horaire moyen des cadres, professions intellectuelles supérieures et des chefs d'entreprises salariés en 2022 (€);;;NUM;16
+SNHMP22;Salaire net hor. moy. prof inter. en 2022 (€);Salaire net horaire moyen des professions intermédiaires en 2022 (€);;;NUM;16
+SNHME22;Salaire net hor. moy. employés en 2022 (€);Salaire net horaire moyen des employés en 2022 (€);;;NUM;16
+SNHMO22;Salaire net hor. moy. ouvriers en 2022 (€);Salaire net horaire moyen des ouvriers en 2022 (€);;;NUM;16
+SNHMF22;Salaire net horaire moyen F en 2022 (€);Salaire net horaire moyen des femmes en 2022 (€);;;NUM;16
+SNHMFC22;Salaire net hor. moy. F cadres sup. en 2022 (€);Salaire net horaire moyen des femmes cadres, professions intellectuelles supérieures et des chefs d'entreprises salariés en 2022 (€);;;NUM;16
+SNHMFP22;Salaire net hor. moy. F prof inter. en 2022 (€);Salaire net horaire moyen des femmes exerçant une profession intermédiaire en 2022 (€);;;NUM;16
+SNHMFE22;Salaire net hor. moy. F employés en 2022 (€);Salaire net horaire moyen des femmes employées en 2022 (€);;;NUM;16
+SNHMFO22;Salaire net hor. moy. F ouvriers en 2022 (€);Salaire net horaire moyen des femmes ouvrières en 2022 (€);;;NUM;16
+SNHMH22;Salaire net horaire moyen H en 2022 (€);Salaire net horaire moyen des hommes en 2022 (€);;;NUM;16
+SNHMHC22;Salaire net hor. moy. H cadres sup. en 2022 (€);Salaire net horaire moyen des hommes cadres, professions intellectuelles supérieures et des chefs d'entreprises salariés en 2022 (€);;;NUM;16
+SNHMHP22;Salaire net hor. moy. H prof inter. en 2022 (€);Salaire net horaire moyen des hommes exerçant une profession intermédiaire en 2022 (€);;;NUM;16
+SNHMHE22;Salaire net hor. moy. H employés en 2022 (€);Salaire net horaire moyen des hommes employés en 2022 (€);;;NUM;16
+SNHMHO22;Salaire net hor. moy. H ouvriers en 2022 (€);Salaire net horaire moyen des hommes ouvriers en 2022 (€);;;NUM;16
+SNHM1822;Salaire net horaire moyen 18 à 25 ans en 2022 (€);Salaire net horaire moyen des personnes de 18 à 25 ans en 2022 (€);;;NUM;16
+SNHM2622;Salaire net horaire moyen 26 à 50 ans en 2022 (€);Salaire net horaire moyen des personnes de 26 à 50 ans en 2022 (€);;;NUM;16
+SNHM5022;Salaire net horaire moyen plus de 50 ans en 2022 (€);Salaire net horaire moyen des personnes de plus de 50 ans en 2022 (€);;;NUM;16
+SNHMF1822;Salaire net horaire moyen F 18 à 25 ans en 2022 (€);Salaire net horaire moyen des femmes de 18 à 25 ans en 2022 (€);;;NUM;16
+SNHMF2622;Salaire net horaire moyen F 26 à 50 ans en 2022 (€);Salaire net horaire moyen des femmes de 26 à 50 ans en 2022 (€);;;NUM;16
+SNHMF5022;Salaire net horaire moyen F plus de 50 ans en 2022 (€);Salaire net horaire moyen des femmes plus de 50 ans en 2022 (€);;;NUM;16
+SNHMH1822;Salaire net horaire moyen H 18 à 25 ans en 2022 (€);Salaire net horaire moyen des hommes  de 18 à 25 ans en 2022 (€);;;NUM;16
+SNHMH2622;Salaire net horaire moyen H 26 à 50 ans en 2022 (€);Salaire net horaire moyen des hommes de 26 à 50 ans en 2022 (€);;;NUM;16
+SNHMH5022;Salaire net horaire moyen H plus de 50 ans en 2022 (€);Salaire net horaire moyen des hommes de plus de 50 ans en 2022 (€);;;NUM;16
+CODGEO;Code géographique;Code de la zone géographique;011;Belley;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;012;Bourg-en-Bresse;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;013;Gex;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;014;Nantua;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;021;Château-Thierry;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;022;Laon;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;023;Saint-Quentin;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;024;Soissons;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;025;Vervins;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;031;Montluçon;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;032;Moulins;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;033;Vichy;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;041;Barcelonnette;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;042;Castellane;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;043;Digne-les-Bains;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;044;Forcalquier;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;051;Briançon;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;052;Gap;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;061;Grasse;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;062;Nice;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;071;Largentière;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;072;Privas;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;073;Tournon-sur-Rhône;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;081;Charleville-Mézières;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;082;Rethel;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;083;Sedan;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;084;Vouziers;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;091;Foix;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;092;Pamiers;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;093;Saint-Girons;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;101;Bar-sur-Aube;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;102;Nogent-sur-Seine;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;103;Troyes;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;111;Carcassonne;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;112;Limoux;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;113;Narbonne;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;121;Millau;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;122;Rodez;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;123;Villefranche-de-Rouergue;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;131;Aix-en-Provence;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;132;Arles;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;133;Marseille;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;134;Istres;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;141;Bayeux;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;142;Caen;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;143;Lisieux;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;144;Vire;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;151;Aurillac;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;152;Mauriac;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;153;Saint-Flour;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;161;Angoulême;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;162;Cognac;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;163;Confolens;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;171;Jonzac;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;172;Rochefort;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;173;La Rochelle;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;174;Saintes;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;175;Saint-Jean-d'Angély;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;181;Bourges;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;182;Saint-Amand-Montrond;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;183;Vierzon;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;191;Brive-la-Gaillarde;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;192;Tulle;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;193;Ussel;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;211;Beaune;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;212;Dijon;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;213;Montbard;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;221;Dinan;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;222;Guingamp;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;223;Lannion;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;224;Saint-Brieuc;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;231;Aubusson;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;232;Guéret;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;241;Bergerac;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;242;Nontron;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;243;Périgueux;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;244;Sarlat-la-Canéda;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;251;Besançon;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;252;Montbéliard;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;253;Pontarlier;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;261;Die;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;262;Nyons;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;263;Valence;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;271;Les Andelys;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;272;Bernay;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;273;Évreux;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;281;Chartres;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;282;Châteaudun;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;283;Dreux;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;284;Nogent-le-Rotrou;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;291;Brest;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;292;Châteaulin;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;293;Morlaix;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;294;Quimper;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;2A1;Ajaccio;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;2A4;Sartène;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;2B2;Bastia;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;2B3;Corte;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;2B5;Calvi;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;301;Alès;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;302;Nîmes;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;303;Le Vigan;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;311;Muret;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;312;Saint-Gaudens;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;313;Toulouse;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;321;Auch;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;322;Condom;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;323;Mirande;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;331;Blaye;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;332;Bordeaux;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;333;Langon;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;334;Lesparre-Médoc;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;335;Libourne;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;336;Arcachon;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;341;Béziers;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;342;Lodève;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;343;Montpellier;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;351;Fougères-Vitré;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;352;Redon;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;353;Rennes;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;354;Saint-Malo;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;361;Le Blanc;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;362;Châteauroux;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;363;La Châtre;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;364;Issoudun;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;371;Chinon;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;372;Tours;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;373;Loches;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;381;Grenoble;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;382;La Tour-du-Pin;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;383;Vienne;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;391;Dole;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;392;Lons-le-Saunier;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;393;Saint-Claude;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;401;Dax;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;402;Mont-de-Marsan;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;411;Blois;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;412;Vendôme;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;413;Romorantin-Lanthenay;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;421;Montbrison;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;422;Roanne;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;423;Saint-Étienne;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;431;Brioude;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;432;Le Puy-en-Velay;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;433;Yssingeaux;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;442;Nantes;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;443;Saint-Nazaire;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;445;Châteaubriant-Ancenis;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;451;Montargis;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;452;Orléans;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;453;Pithiviers;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;461;Cahors;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;462;Figeac;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;463;Gourdon;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;471;Agen;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;472;Marmande;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;473;Villeneuve-sur-Lot;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;474;Nérac;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;481;Florac;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;482;Mende;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;491;Angers;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;492;Cholet;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;493;Saumur;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;494;Segré;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;501;Avranches;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;502;Cherbourg;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;503;Coutances;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;504;Saint-Lô;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;511;Châlons-en-Champagne;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;512;Épernay;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;513;Reims;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;514;Vitry-le-François;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;521;Chaumont;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;522;Langres;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;523;Saint-Dizier;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;531;Château-Gontier;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;532;Laval;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;533;Mayenne;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;541;Val-de-Briey;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;542;Lunéville;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;543;Nancy;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;544;Toul;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;551;Bar-le-Duc;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;552;Commercy;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;553;Verdun;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;561;Lorient;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;562;Pontivy;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;563;Vannes;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;573;Forbach-Boulay-Moselle;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;575;Sarrebourg-Château-Salins;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;576;Sarreguemines;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;577;Thionville;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;579;Metz;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;581;Château-Chinon (Ville);CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;582;Clamecy;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;583;Nevers;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;584;Cosne-Cours-sur-Loire;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;591;Avesnes-sur-Helpe;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;592;Cambrai;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;593;Douai;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;594;Dunkerque;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;595;Lille;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;596;Valenciennes;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;601;Beauvais;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;602;Clermont;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;603;Compiègne;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;604;Senlis;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;611;Alençon;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;612;Argentan;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;613;Mortagne-au-Perche;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;621;Arras;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;622;Béthune;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;623;Boulogne-sur-Mer;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;624;Montreuil;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;625;Saint-Omer;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;626;Calais;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;627;Lens;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;631;Ambert;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;632;Clermont-Ferrand;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;633;Issoire;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;634;Riom;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;635;Thiers;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;641;Bayonne;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;642;Oloron-Sainte-Marie;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;643;Pau;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;651;Argelès-Gazost;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;652;Bagnères-de-Bigorre;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;653;Tarbes;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;661;Céret;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;662;Perpignan;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;663;Prades;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;672;Haguenau-Wissembourg;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;673;Molsheim;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;674;Saverne;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;675;Sélestat-Erstein;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;678;Strasbourg;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;681;Altkirch;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;682;Colmar-Ribeauvillé;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;684;Mulhouse;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;686;Thann-Guebwiller;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;691;Lyon;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;692;Villefranche-sur-Saône;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;701;Lure;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;702;Vesoul;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;711;Autun;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;712;Chalon-sur-Saône;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;713;Charolles;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;714;Louhans;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;715;Mâcon;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;721;La Flèche;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;722;Mamers;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;723;Le Mans;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;731;Albertville;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;732;Chambéry;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;733;Saint-Jean-de-Maurienne;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;741;Annecy;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;742;Bonneville;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;743;Saint-Julien-en-Genevois;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;744;Thonon-les-Bains;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;751;Paris;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;761;Dieppe;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;762;Le Havre;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;763;Rouen;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;771;Meaux;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;772;Melun;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;773;Provins;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;774;Fontainebleau;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;775;Torcy;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;781;Mantes-la-Jolie;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;782;Rambouillet;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;783;Saint-Germain-en-Laye;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;784;Versailles;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;791;Bressuire;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;792;Niort;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;793;Parthenay;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;801;Abbeville;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;802;Amiens;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;803;Montdidier;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;804;Péronne;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;811;Albi;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;812;Castres;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;821;Castelsarrasin;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;822;Montauban;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;831;Draguignan;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;832;Toulon;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;833;Brignoles;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;841;Apt;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;842;Avignon;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;843;Carpentras;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;851;Fontenay-le-Comte;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;852;La Roche-sur-Yon;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;853;Les Sables-d'Olonne;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;861;Châtellerault;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;862;Montmorillon;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;863;Poitiers;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;871;Bellac;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;872;Limoges;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;873;Rochechouart;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;881;Épinal;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;882;Neufchâteau;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;883;Saint-Dié-des-Vosges;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;891;Auxerre;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;892;Avallon;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;893;Sens;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;901;Belfort;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;911;Étampes;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;912;Évry;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;913;Palaiseau;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;921;Antony;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;922;Nanterre;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;923;Boulogne-Billancourt;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;931;Bobigny;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;932;Le Raincy;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;933;Saint-Denis;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;941;Créteil;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;942;Nogent-sur-Marne;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;943;L'Haÿ-les-Roses;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;951;Argenteuil;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;952;Sarcelles;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;953;Pontoise;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;9711;Basse-Terre;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;9712;Pointe-à-Pitre;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;9721;Fort-de-France;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;9722;La Trinité;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;9723;Le Marin;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;9724;Saint-Pierre;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;9731;Cayenne;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;9732;Saint-Laurent-du-Maroni;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;9741;Saint-Denis;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;9742;Saint-Pierre;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;9743;Saint-Benoît;CHAR;4
+CODGEO;Code géographique;Code de la zone géographique;9744;Saint-Paul;CHAR;4
