@@ -1,5 +1,5 @@
 import streamlit as st
-from agents.agents import create_agent_executor
+from agents.agent import create_agent_executor
 
 
 
