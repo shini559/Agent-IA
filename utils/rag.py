@@ -1,6 +1,7 @@
 import os
 import shutil
 import time
+from tabnanny import verbose
 from typing import List, Optional
 from dotenv import load_dotenv
 from langchain_community.document_loaders import (
@@ -28,7 +29,7 @@ class Rag:
         self.model = ChatDeepSeek(
             model="deepseek-chat",
             api_key=os.getenv("DEEPSEEK_API_KEY"),
-            temperature=0.3  # Un peu de créativité
+            temperature=0.3, # Un peu de créativité
         )
         self.embedder = OllamaEmbeddings(model="nomic-embed-text")
 
@@ -127,7 +128,7 @@ class Rag:
 
         text_splitter = RecursiveCharacterTextSplitter(
             chunk_size=1000,
-            chunk_overlap=200,  # Important pour le contexte
+            chunk_overlap=50,  # Important pour le contexte
             separators=["\n\n", "\n", " ", ""]
         )
         chunks = text_splitter.split_documents(docs)
