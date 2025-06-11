@@ -1,3 +1,7 @@
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from langchain import hub
 from langchain_ollama import ChatOllama
 from langchain.agents import create_react_agent, AgentExecutor
