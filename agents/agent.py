@@ -1,9 +1,12 @@
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from langchain import hub
 from langchain_ollama import ChatOllama
 from langchain.agents import create_react_agent, AgentExecutor
 from langchain.memory import ConversationBufferMemory
-from tools.tools import rag_tools
-from tools.customized_tools import customized_tools
+from tools.rag_tools import rag_tools
 
 
 all_tools = rag_tools + customized_tools
@@ -24,13 +27,13 @@ def create_agent_executor():
     memory = ConversationBufferMemory(memory_key="chat_history")
 
     # 3. On crée l'agent en lui donnant le llm, les outils et le prompt
-    agent = create_react_agent(llm, all_tools, prompt)
+    agent = create_react_agent(llm, rag_tools, prompt)
 
     # 4. On crée l'exécuteur d'agent.
     # NOUVEAU : On ajoute le paramètre `memory` ici !
     agent_executor = AgentExecutor(
         agent=agent,
-        tools=all_tools,
+        tools=rag_tools,
         memory=memory,  # L'ajout crucial est ici
         verbose=True
     )
