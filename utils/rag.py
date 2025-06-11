@@ -35,6 +35,7 @@ class Rag:
         # Chemins des fichiers
         script_dir = os.path.dirname(os.path.abspath(__file__))
         project_root = os.path.dirname(script_dir)
+        
         self.docs_path = os.path.join(project_root, docs_folder)
         self.db_dir = os.path.join(self.docs_path, "vector_db")
 
@@ -55,6 +56,7 @@ class Rag:
 
     def _load_single_document(self, file_path: str, category: str) -> List[Document]:
         """Charge un seul document avec le loader approprié."""
+        print("load single doc",file_path, "category", category )
         try:
             if file_path.endswith(".xlsx"):
                 loader = UnstructuredExcelLoader(file_path)
@@ -84,6 +86,7 @@ class Rag:
         all_docs = []
 
         for category in os.listdir(self.docs_path):
+            print("category", category)
             if category.startswith(".") or "db" in category.lower():
                 continue
 
@@ -101,16 +104,15 @@ class Rag:
     def load_documents_from_folder(self) -> List[Document]:
         """Charge tous les documents depuis un dossier plat (sans sous-dossiers)."""
         all_docs = []
-
+        print("load docs from folder")
         for file_name in os.listdir(self.docs_path):
-            if file_name.startswith(".") or "db" in file_name.lower():
-                continue
-
-        file_path = os.path.join(self.docs_path, file_name)
-        if os.path.isfile(file_path):
+            file_path = os.path.join(self.docs_path, file_name)
+            if os.path.isfile(file_path):
             # Utilise une catégorie par défaut ou extraite du nom du fichier si besoin
-            category = "default"
-            all_docs.extend(self._load_single_document(file_path, category))
+                print("self.docs_folder", self.docs_path)
+                
+                category = file_path.split("\\")[-2]
+                all_docs.extend(self._load_single_document(file_path, category))
 
         return all_docs
 
@@ -127,12 +129,13 @@ class Rag:
 
         text_splitter = RecursiveCharacterTextSplitter(
             chunk_size=1000,
-            chunk_overlap=200,  # Important pour le contexte
+            chunk_overlap=0,  # Important pour le contexte
             separators=["\n\n", "\n", " ", ""]
         )
         chunks = text_splitter.split_documents(docs)
 
         # Création de la base
+        
         self.vector_store = Chroma.from_documents(
             documents=chunks,
             embedding=self.embedder,
@@ -140,6 +143,7 @@ class Rag:
             collection_metadata={"hnsw:space": "cosine"}  # Optimisation
         )
         print(f"✅ Base créée avec {len(chunks)} chunks")
+        
 
     def _clean_vector_db(self, max_attempts: int = 3) -> None:
         """Nettoie le répertoire de la base vectorielle."""
@@ -194,8 +198,8 @@ Question: {question}""")
 
 if __name__ == "__main__":
     try:
-        rag = Rag("docs/emploi/")
-
+        rag = Rag("docs\\emploi\\")
+        """
         while True:
             question = input("\n💬 Posez votre question (ou 'quit'): ").strip()
             if question.lower() in ('quit', 'exit', 'q'):
@@ -204,6 +208,6 @@ if __name__ == "__main__":
             start_time = time.time()
             response = rag.query(question)
             print(f"\n🤖 Réponse ({time.time() - start_time:.2f}s):\n{response}")
-
+        """
     except Exception as e:
         print(f"❌ Erreur: {str(e)}")
