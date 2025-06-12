@@ -1,11 +1,11 @@
 
-from utils.rag import create_rag_retriever
+from utils.rag import Rag
 from langchain.tools.retriever import create_retriever_tool
 
 # On crée les retrievers en appelant notre fonction
-retriever_emploi = create_rag_retriever("./docs/emploi")
-retriever_formation = create_rag_retriever("./docs/formation")
-retriever_salaire = create_rag_retriever("./docs/salaire")
+retriever_emploi = Rag("docs\\emploi\\")
+retriever_formation = Rag("docs\\formation\\")
+retriever_salaire = Rag("docs\\salaire\\")
 
 # --- Création des Outils ---
 # C'est ici que la magie opère. Chaque outil a une description claire
