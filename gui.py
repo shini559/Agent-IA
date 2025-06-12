@@ -1,77 +1,69 @@
 import streamlit as st
 from agents.agent import create_agent_executor
 
-
-
-
-
-
+# --- Page config ---
 st.set_page_config(page_title="Chatbot", layout="wide")
 
 # --- States init ---
 if "show_chat" not in st.session_state:
     st.session_state.show_chat = False
+if "toggle_chat" in st.query_params:
+    st.session_state.show_chat = not st.session_state.show_chat
+    st.query_params.clear()
+
 if "history" not in st.session_state:
-    st.session_state.history = []  # list of tuples: ("user", msg) / ("bot", response)
+    st.session_state.history = []  # list of tuples: ("user", msg) / ("P'tibou", response)
 if "typing" not in st.session_state:
     st.session_state.typing = False
 if "selected_history_index" not in st.session_state:
     st.session_state.selected_history_index = None
 if "prefill_input" not in st.session_state:
     st.session_state.prefill_input = ""
+if "dark_mode" not in st.session_state:
+    st.session_state.dark_mode = False
 
-# --- Floating button style ---
-st.markdown("""
+# --- Dark mode CSS ---
+dark_mode = st.session_state.dark_mode
+st.markdown(f"""
     <style>
-    .floating-btn {
-        position: fixed;
-        bottom: 25px;
-        right: 25px;
-        z-index: 1001;
-    }
-    .floating-btn button {
-        background-color: #4CAF50;
-        color: white;
-        border: none;
-        border-radius: 50%;
-        padding: 16px;
-        font-size: 24px;
-        box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
-        cursor: pointer;
-    }
-    .chat-box {
+    body {{
+        background-color: {'#1e1e1e' if dark_mode else '#ffffff'};
+        color: {'#ffffff' if dark_mode else '#000000'};
+    }}
+    .chat-box {{
         height: 400px;
         overflow-y: auto;
         padding: 10px;
-        background-color: #f9f9f9;
-        border: 1px solid #ddd;
+        background-color: {'#2c2c2c' if dark_mode else '#f9f9f9'};
+        color: {'#ffffff' if dark_mode else '#000000'};
+        border: 1px solid {'#444' if dark_mode else '#ddd'};
         border-radius: 8px;
         margin-bottom: 10px;
-    }
-    .history-column {
+    }}
+    .history-column {{
         max-height: 400px;
         overflow-y: auto;
-    }
+        background-color: {'#2c2c2c' if dark_mode else '#ffffff'};
+        color: {'#ffffff' if dark_mode else '#000000'};
+    }}
     </style>
 """, unsafe_allow_html=True)
 
-# --- Floating Button ---
+# --- Bouton principal pour afficher/masquer le chat ---
 if st.button("🤖 P'tibou 🤖", key="open_button"):
     st.session_state.show_chat = not st.session_state.show_chat
 
-st.markdown('<div class="floating-btn"></div>', unsafe_allow_html=True)
-
 # --- Sidebar for history ---
 if st.session_state.show_chat:
-    
     with st.sidebar:
         st.markdown("### 📜 Historique")
         st.markdown('<div class="history-column">', unsafe_allow_html=True)
+
         history_pairs = []
         h = st.session_state.history
         i = 0
         while i < len(h):
-            if i + 1 < len(h) and h[i][0] == "user" and h[i + 1][0] == "bot":
+            if i + 1 < len(h) and h[i][0] == "user" and h[i + 1][0] == "P'tibou":
                 history_pairs.append((h[i][1], h[i + 1][1]))
                 i += 2
             else:
@@ -81,6 +73,7 @@ if st.session_state.show_chat:
             if st.button(f"{user_msg[:30]}...", key=f"hist_{idx}"):
                 st.session_state.selected_history_index = idx
                 st.session_state.prefill_input = user_msg
+
         st.markdown('</div>', unsafe_allow_html=True)
 
         if st.button("❌ Fermer le chat", key="close_chat_sidebar"):
@@ -98,24 +91,26 @@ if st.session_state.show_chat:
 
     st.title("💬 P'tibou")
 
-    # Chat messages
-    # --- Chat messages dans .chat-box ---
-    chat_html = '<div class="chat-box">'
+    # Mode sombre bouton toggle
+    theme_text = "🌙 Mode sombre" if not dark_mode else "☀️ Mode clair"
+    if st.button(theme_text):
+        st.session_state.dark_mode = not st.session_state.dark_mode
+        st.rerun()
 
+    # Chat messages
+    chat_html = '<div class="chat-box">'
     if st.session_state.selected_history_index is not None:
         u, b = history_pairs[st.session_state.selected_history_index]
         chat_html += f"<p><strong>Vous :</strong> {u}</p>"
-        chat_html += f"<p><strong>Bot :</strong> {b}</p>"
+        chat_html += f"<p><strong>P'tibou :</strong> {b}</p>"
     else:
         for sender, message in st.session_state.history:
             role = "Vous" if sender == "user" else "P'tibou"
             chat_html += f"<p><strong>{role} :</strong> {message}</p>"
         if st.session_state.typing:
-            chat_html += "<p><strong>Bot :</strong> ⌛ En train de répondre...</p>"
-
+            chat_html += "<p><strong>P'tibou :</strong> ⌛ En train de répondre...</p>"
     chat_html += '</div>'
     st.markdown(chat_html, unsafe_allow_html=True)
-
 
     # Input form
     with st.form("chat_form", clear_on_submit=True):
@@ -131,12 +126,10 @@ if st.session_state.show_chat:
 
     # Get response
     if st.session_state.typing:
-        with st.spinner("Ollama réfléchit..."):
+        with st.spinner("P'tibou réfléchit..."):
             last_user_msg = st.session_state.history[-1][1]
-            #agent_executor = create_agent_executor()
-            #response = agent_executor.invoke({"input":last_user_msg})
-            #st.session_state.history.append(("bot", response["output"]))
-            response = chat_with_ollama(last_user_msg)
-            st.session_state.history.append(("bot", response))
+            agent_executor = create_agent_executor()
+            response = agent_executor.invoke({"input": last_user_msg})
+            st.session_state.history.append(("P'tibou", response["output"]))
             st.session_state.typing = False
             st.rerun()

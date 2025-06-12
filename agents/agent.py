@@ -46,6 +46,7 @@ def create_agent_executor():
         agent=agent,
         tools=all_tools,
         memory=memory,  # L'ajout crucial est ici
+        handle_parsing_errors=True,
         verbose=True
     )
 
