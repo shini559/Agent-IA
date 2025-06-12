@@ -1,5 +1,5 @@
 import streamlit as st
-from agents.agent import create_agent_executor
+from agents.agents import create_agent_executor
 
 
 
@@ -133,8 +133,10 @@ if st.session_state.show_chat:
     if st.session_state.typing:
         with st.spinner("Ollama réfléchit..."):
             last_user_msg = st.session_state.history[-1][1]
-            agent_executor = create_agent_executor()
-            response = agent_executor.invoke({"input":last_user_msg})
-            st.session_state.history.append(("bot", response["output"]))
+            #agent_executor = create_agent_executor()
+            #response = agent_executor.invoke({"input":last_user_msg})
+            #st.session_state.history.append(("bot", response["output"]))
+            response = chat_with_ollama(last_user_msg)
+            st.session_state.history.append(("bot", response))
             st.session_state.typing = False
             st.rerun()
