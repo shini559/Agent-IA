@@ -4,13 +4,16 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from langchain import hub
 from langchain_ollama import ChatOllama
+from langchain_deepseek import ChatDeepSeek
 from langchain.agents import create_react_agent, AgentExecutor
 from langchain.memory import ConversationBufferMemory
-from tools.tools import rag_tools
+from langchain_deepseek import ChatDeepSeek
 from tools.customized_tools import customized_tools
 
 
-all_tools = rag_tools + customized_tools
+
+all_tools = customized_tools
+
 def create_agent_executor():
     """
     Crée et renvoie un exécuteur d'agent prêt à l'emploi,
@@ -22,8 +25,15 @@ def create_agent_executor():
     prompt = hub.pull("hwchase17/react-chat")
 
     # 2. On choisit le modèle de langage
-    llm = ChatOllama(model="llama3", temperature=0)
 
+    #llm = ChatOllama(model="llama3", temperature=0)
+
+    llm =  ChatDeepSeek(
+            model="deepseek-chat",
+            api_key=os.getenv("DEEPSEEK_API_KEY"),
+            temperature=0.3  # Un peu de créativité
+        )
+    
     # On configure la mémoire de l'agent.
     memory = ConversationBufferMemory(memory_key="chat_history")
 

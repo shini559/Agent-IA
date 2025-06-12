@@ -3,16 +3,19 @@ from langchain.tools import tool
 from duckduckgo_search import DDGS
 from langchain.agents import Tool
 
-from utils import rag
+from utils.rag import Rag
 
 
-def search_docs(query: str, rag_instance: rag) -> str:
+
+
+
+def search_docs(query: str, rag_instance: Rag) -> str:
     retriever = rag_instance.get_retriever()
     docs = retriever.invoke(query)
     return "\n".join([doc.page_content for doc in docs])
 
 # Create a Tool instance
-def get_search_docs_tool(rag_instance: rag) -> Tool:
+def get_search_docs_tool(rag_instance: Rag) -> Tool:
     return Tool(
         name="search_docs",
         func=lambda q: search_docs(q, rag_instance),
@@ -51,7 +54,5 @@ def get_search_web_tool() -> Tool:
     description="Recherche des informations actuelles sur Internet via DuckDuckGo."
 )
 
-if __name__ == "__main__":
-    print(search_web("dernières nouvelles sur l'emploi et insertion"))
-
-customized_tools = [get_search_web_tool()]
+rag = Rag("docs/")
+customized_tools = [get_search_docs_tool(rag)]

@@ -3,6 +3,7 @@ from utils.rag import Rag
 from langchain.tools.retriever import create_retriever_tool
 
 # On crée les retrievers en appelant notre fonction
+
 retriever_emploi = Rag("./docs/emploi")
 retriever_formation = Rag("./docs/formation")
 retriever_salaire = Rag("./docs/salaire")
