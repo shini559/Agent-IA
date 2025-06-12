@@ -111,7 +111,7 @@ class Rag:
             # Utilise une catégorie par défaut ou extraite du nom du fichier si besoin
                 print("self.docs_folder", self.docs_path)
                 
-                category = file_path.split("\\")[-2]
+                category = file_path.split("/")[-2]
                 all_docs.extend(self._load_single_document(file_path, category))
 
         return all_docs
@@ -123,7 +123,7 @@ class Rag:
         self._clean_vector_db()
 
         # Chargement et découpage des documents
-        docs = self.load_documents_from_folder()
+        docs = self.load_documents()
         if not docs:
             raise ValueError("Aucun document valide trouvé")
 
@@ -198,7 +198,7 @@ Question: {question}""")
 
 if __name__ == "__main__":
     try:
-        rag = Rag("docs\\emploi\\")
+        rag = Rag("docs/")
         """
         while True:
             question = input("\n💬 Posez votre question (ou 'quit'): ").strip()

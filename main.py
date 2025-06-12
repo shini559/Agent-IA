@@ -1,4 +1,4 @@
-from agents.agents import create_agent_executor
+from agents.agent import create_agent_executor
 
 if __name__ == "__main__":
     print("🚀 Lancement de l'agent IA...")
