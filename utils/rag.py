@@ -111,7 +111,7 @@ class Rag:
             # Utilise une catégorie par défaut ou extraite du nom du fichier si besoin
                 print("self.docs_folder", self.docs_path)
                 
-                category = file_path.split("\\")[-2]
+                category = file_path.split("/")[-2]
                 all_docs.extend(self._load_single_document(file_path, category))
 
         return all_docs
