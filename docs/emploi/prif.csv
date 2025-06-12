@@ -1,19 +1,3 @@
-# Description : Les espaces Proch'Info-Formation régionaux sont des lieux d'accueil de proximité permettant de regrouper toutes les informations nécessaires aux actifs et aux entreprises pour qu’ils puissent s’informer sur l’orientation, la reconversion professionnelle, les métiers, les offres de formation, les conditions d’accès et les perspectives d’emploi sur le marché du travail.
-# Plus d'information : https://www.hautsdefrance.fr/prochinfo-formation/
-#
-# Thématique(s) : EMPLOI
-# Mots-Clés : EMPLOI, FORMATION, ENTREPRISE, PLATE FORME, PRIF, MARCHE DU TRAVAIL, ORIENTATION, RECONVERSION, REGION32
-# Mots-Clés de lieu : HAUTS-DE-FRANCE, AISNE, OISE, NORD, SOMME, PAS DE CALAIS
-# Conditions d'utilisation : Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour
-# Données ouvertes : oui
-# Source : Données fournies par la Direction Proch'emploi - Espaces Proch'Info-Formation (géolocalisation à l'adresse, 2022-03)
-# Date de création : 2024-05-06
-# Date de mise à jour des données : -
-# Date de mise à jour de la fiche : 2025-04-22
-# Fréquence de mise à jour : Lorsque nécessaire
-# Date de publication : 2022-03-28
-# Langue : Français
-
 gml_id,id,struct_acc,adresse,cp,code_insee,commune,tel,mail,nom_prif,date_maj
 prif.1,"1",Maison de l'Emploi et de la Formation du Pays du Grand Laonnois,4A avenue Carnot,"02000","02408",LAON,0800 026 080,laon@prochinfo-formation.fr,Laon Proch'info formation,2024/01/29
 prif.2,"2",Association Itinéraire Emploi,58 Boulevard Victor Hugo,"02100","02691",SAINT-QUENTIN,0800 026 080,saint-quentin@prochinfo-formation.fr,Saint-Quentin Proch'info formation,2024/01/29

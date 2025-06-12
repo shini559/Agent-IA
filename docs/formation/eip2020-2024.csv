@@ -1,21 +1,3 @@
-# Description : Depuis 2016, la Région déploie des Espaces Innovation Partagés (EIP) situés dans des établissements d'enseignement secondaire public de la région. Ce sont des lieux équipés techniquement, assimilés à des Fablabs éducatifs, réservés aux élèves et partenaires extérieurs. La Région aménage les locaux, fournit le matériel manuel, numérique ou technique et forme les utilisateurs aux outils numériques de fabrication. Ce réseau de plus de 80 espaces contribue pleinement à REV3 via des projets technologiques et sociétaux.
-# Les EIP se structurent autour de deux espaces : un espace de prototypage avec équipements innovants et outillage traditionnel, et un espace de créativité convivial favorisant échanges et création collaborative avec l’équipe pédagogique ou des intervenants extérieurs.
-# Données d’avancement des projets par établissement de 2020 à 2024.
-# Plus d'informations : (non fournie)
-#
-# Thématique(s) : FORMATION
-# Mots-Clés : EDUCATION, FORMATION, POLITIQUE EDUCATIVE, ESPACE D'INNOVATION PARTAGEE, EIP, QUALIFICATION, REV3, LYCEE, FABLAB, REGION32
-# Mots-Clés de lieu : HAUTS-DE-FRANCE, AISNE, OISE, NORD, SOMME, PAS DE CALAIS
-# Conditions d'utilisation : Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour
-# Données ouvertes : oui
-# Source : Données Conseil régional HdF, fournies par la Direction des politiques éducatives
-# Date de création : 2024-05-07
-# Date de mise à jour des données : 2025-01-13
-# Date de mise à jour de la fiche : 2025-02-20
-# Fréquence de mise à jour : Lorsque nécessaire
-# Date de publication : 2023-05-23
-# Langue : Français
-
 code uai,etablissements,villes,statut 2020,statut 2021,statut 2022,statut 2023,statut 2024
 0800001S,Lycée Général et Technologique Boucher de Perthes ,ABBEVILLE,En cours,En cours,Déployé,Déployé,Déployé
 0601782L,Lycée Général et Technologique Agricole de l'Oise,AIRION,Déployé,En cours,Déployé,Déployé,Déployé

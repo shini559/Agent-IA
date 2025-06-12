@@ -1,26 +1,3 @@
-# Description : Répartition par année scolaire (depuis 2017) des étudiants ayant bénéficié de la bourse Mermoz pour une mobilité internationale.
-# Ce dispositif permet aux étudiants inscrits dans un établissement d'enseignement supérieur en Région Hauts-de-France de :
-# - suivre un stage en entreprise ou autre organisme (ONG, association, etc.)
-# - suivre à l'étranger un parcours de formation en enseignement supérieur
-# - bénéficier d’une expérience dans un laboratoire de recherche à l’étranger (Master 2, doctorat)
-# - renforcer ou initier des collaborations entre établissements régionaux et étrangers
-# - développer le rayonnement international de la région.
-# Plus d'informations : https://guide-aides.hautsdefrance.fr/dispositif997
-#
-# Thématique(s) : FORMATION
-# Mots-Clés : AIDE REGIONALE, ETUDIANT, MOBILITE, INTERNATIONAL, FINANCEMENT, PARTICULIER, MERMOZ, UNIVERSITE, ENSEIGNEMENT SUPERIEUR, REGION32
-# Mots-Clés de lieu : HAUTS-DE-FRANCE, SOMME, AISNE, NORD, OISE, PAS DE CALAIS
-# Conditions d'utilisation : Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour
-# Données ouvertes : oui
-# Source : Extrait d'une base régionale à partir des dossiers retenus.
-# Champs extraits : année de campagne, commune et établissement d'enseignement, diplôme préparé, type de mobilité, pays de destination, ville d'origine, nombre de semaines financés par l'aide Mermoz.
-# Attention : données par année scolaire (septembre à juin)
-# Date de création : 2024-04-12
-# Date de mise à jour des données : 2024-10-14
-# Date de mise à jour de la fiche : 2025-03-04
-# Fréquence de mise à jour : Une fois par an
-# Langue : Français
-
 Campagne,Civilité,Etablissement d'origine,COD_INSEE_ETS,COMMUNE_ETS,Diplome préparé,Type_mobilité,COD_PAYS,Destination,INSEE Commune ou Code_pays,Adresse_commune,Nb Semaines Financées
 MERMOZ17,Monsieur,APRADIS AMIENS,80021,AMIENS ,Social,Stage,ESP,ESPAGNE,80021,AMIENS,"13,57"
 MERMOZ17,Monsieur,CENTRE REGIONAL DE FORMATION DES PROFESSIONNELS DE L'ENFANCE (CRFPE) LILLE ,59350,LILLE ,Social,Stage,BEL,BELGIQUE,59350,LOMME,26

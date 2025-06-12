@@ -1,18 +1,3 @@
-# Description : Les 23 plateformes Proch'emploi réparties sur toute la région Hauts-de-France sont les interlocutrices privilégiées des TPE-PME sur leurs questions RH (recrutement, formation, …). Ainsi, elles permettent notamment la mise en relation d'employeurs qui cherchent à recruter avec des demandeurs d'emplois présélectionnés.
-# Plus d'information : https://www.hautsdefrance.fr/categorie/dossiers/proch-emploi/
-#
-# Thématique(s) : EMPLOI
-# Mots-Clés : EMPLOI, FORMATION, ENTREPRISE, PLATE FORME, PROCH'EMPLOI, MARCHE DU TRAVAIL, RESSOURCE HUMAINE, EMPLOYEUR, RECRUTEMENT, HAUTS-DE-FRANCE
-# Mots-Clés de lieu : AISNE, OISE, SOMME, NORD, PAS DE CALAIS
-# Conditions d'utilisation : Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour
-# Données ouvertes : oui
-# Source : Données fournies par la Direction Proch'emploi - Plateformes Proch’Emploi (géolocalisation à l'adresse, 2022-03)
-# Date de création : 2024-12-27
-# Date de mise à jour des données : 2022-04-05
-# Date de mise à jour de la fiche : 2025-04-22
-# Fréquence de mise à jour : Lorsque nécessaire
-# Langue : Français
-
 gml_id,id,plateforme,adresse,code_post,commune,mail,tel_1,tel_2,tel_3,tel_4,code_insee,date_maj
 prochemploi.1,"1",Abbeville,Place de la Gare,"80100",ABBEVILLE,abbeville@prochemploi.fr,"0970201742",,,,"80001",
 prochemploi.2,"2",Amiens,21 Place Notre-Dame,"80000",AMIENS,amiens@prochemploi.fr,"0322971525",,,,"80021",2023/11/28
