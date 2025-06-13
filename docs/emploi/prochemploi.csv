@@ -1,0 +1,24 @@
+gml_id,id,plateforme,adresse,code_post,commune,mail,tel_1,tel_2,tel_3,tel_4,code_insee,date_maj
+prochemploi.1,"1",Abbeville,Place de la Gare,"80100",ABBEVILLE,abbeville@prochemploi.fr,"0970201742",,,,"80001",
+prochemploi.2,"2",Amiens,21 Place Notre-Dame,"80000",AMIENS,amiens@prochemploi.fr,"0322971525",,,,"80021",2023/11/28
+prochemploi.3,"3",Arras,Artois Emploi Entreprise - 13 ter Boulevard Schuman,"62000",ARRAS,prochemplois@mem-artois.fr,"0321519937",,,,"62041",2024/01/29
+prochemploi.4,"4",Beauvais,54 rue de Tilloy,"60000",BEAUVAIS,beauvais@prochemploi.fr,"0676788659",,,,"60057",2023/11/28
+prochemploi.5,"5",Berck - Montreuil,"Pépinière ""7 Vallées Entreprises"" - Z.A du Fond de Lianne - 54 rue du Fond de Lianne","62990",BEAURAINVILLE,montreuil@prochemploi.fr,"0950434913",,,,"62100",
+prochemploi.6,"6",Béthune - Bruay,Communauté d'Agglomération Béthune Bruay Artois Lys Romane - Développement Economique - 119 rue du Conseil de l'Europe,"62701",BRUAY-LA-BUISSIERE,artoislysromane@prochemploi.fr,"0321614581",,,,"62178",
+prochemploi.7,"7",Boulogne-sur-mer,10 Allee Estienne Mehul,"62200",BOULOGNE-SUR-MER,boulogne@prochemploi.fr,"0321303622",,,,"62160",
+prochemploi.8,"8",Calais,885 Rue Louis Bréguet - Carré des affaires by CCI,"62100",CALAIS,calais@prochemploi.fr,"0321460025",,,,"62193",
+prochemploi.9,"9",Cambrai,Espace Cambrésis - 14 rue Neuve,"59404",CAMBRAI,cambrai@prochemploi.fr,"0327707551",,,,"59122",
+prochemploi.10,"10",Tergnier,57 Boulevard Gambetta,"02300",CHAUNY,chauny-tergnier-lafere@prochemploi.fr,"0671018052",,,,"02173",
+prochemploi.11,"11",Compiègne,ARC - Place de l'Hôtel de Ville - C.S 10007,"60321",COMPIEGNE,compiegne@prochemploi.fr,"0344854468",,,,"53130",
+prochemploi.12,"12",Douai,Hôtel d'entreprises - Porte A - Aile Languedoc - 685 rue Jean Perrin (physique)   ou : 746 rue jean Perrin  BP300 (postale),"59500",DOUAI,douai@prochemploi.fr,"0672316364",,,,"59178",
+prochemploi.13,"13",Dunkerque,66 Rue des Chantiers de France,"59140",DUNKERQUE,dunkerque@prochemploi.fr,"0612714041",,,,"59183",
+prochemploi.14,"14",Flandre - Lys,222 BIS Rue de Vieux-Berquin,"59190",HAZEBROUCK,jean-francois.decool@prochemploi.fr,"0374540040",,,,"59295",2024/01/29
+prochemploi.15,"15",Lens - Hénin,"Les terrasses du Métaphone, chemin du tordoir","62590",OIGNIES,lenslievinhenincarvin@prochemploi.fr,"0625866515",,,,"62637",2023/11/28
+prochemploi.16,"16",Lille,"ENTREPRISES & CITES, 40 rue Eugène Jacquet","59700",MARCQ-EN-BAROEUL,lille@prochemploi.fr,"0320994795",,,,"59378",2023/11/28
+prochemploi.17,"17",Maubeuge,Réussir en Sambre - 20 avenue Alphonse de Lamartine,"59600",MAUBEUGE,maubeuge@prochemploi.fr,"0366323225",,,,"59392",
+prochemploi.18,"18",Roissy Sud Picardie,ACSO 24 rue de la villageoise,"60100",CREIL,creil@prochemploi.fr,"0344647584",,,,"60175",
+prochemploi.19,"19",Saint-Omer,"Maison du Développement Economique - 16, place Victor Hugo","62500",SAINT-OMER,nathalie.dupre@prochemploi.fr,"0374182206",,,,"62765",2024/01/29
+prochemploi.20,"20",Saint-Quentin,58 boulevard Victor Hugo,"02100",SAINT-QUENTIN,stquentin@prochemploi.fr,"0374271352",,,,"02691",2023/11/28
+prochemploi.21,"21",Soissons,Parc Gouraud - Immeuble les Ambassadeurs - Bât.11 - 2 allée des Nobel,"02200",SOISSONS,soissons@prochemploi.fr,"0374271354",,,,"02722",2024/01/29
+prochemploi.22,"22",Valenciennes,"Valenciennes Métropole, 2 place de l'Hopital Général","59300",VALENCIENNES,valenciennes@prochemploi.fr,"0327096264",,,,"59606",2024/01/29
+prochemploi.23,"23",Thiérache,5 avenue du Préau,"02140",VERVINS,thieracheserre@prochemploi.fr,"0647267612",,,,"02789",2023/11/28

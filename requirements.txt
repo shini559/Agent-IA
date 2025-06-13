@@ -1,0 +1,38 @@
+# HTTP requests pour les API externes
+requests
+
+# Interface utilisateur web rapide pour Python
+streamlit
+
+
+
+# Framework principal pour la RAG et les LLMs
+langchain
+
+# Intégrations communautaires : loaders, retrievers, etc.
+langchain-community
+
+# Intégration d’Ollama (LLMs et embeddings locaux)
+langchain-ollama
+langchain-deepseek
+
+# Base de vecteurs embarquée, rapide et simple à utiliser
+chromadb
+langchain-chroma
+
+
+
+
+
+
+# Synthèse vocale via Google Text-to-Speech (nécessite connexion Internet)
+pygame
+
+# Pour la recherche Web via DuckDuckGo (utile dans un agent)
+duckduckgo_search
+
+# Lecture de documents structurés (.xlsx, .pdf, etc.)
+unstructured[excel]
+openpyxl
+pymupdf
+langchain-community[pdf]

@@ -1,0 +1,125 @@
+COD_VAR;LIB_VAR;LIB_VAR_LONG;COD_MOD;LIB_MOD;TYPE_VAR;LONG_VAR
+SNHM22;Salaire net horaire moyen en 2022 (€);Salaire net horaire moyen en 2022 (€);;;NUM;16
+SNHMC22;Salaire net hor. Moy. Cadres sup. en 2022 (€);Salaire net horaire moyen des cadres, professions intellectuelles supérieures et des chefs d'entreprises salariés en 2022 (€);;;NUM;16
+SNHMP22;Salaire net hor. moy. prof inter. en 2022 (€);Salaire net horaire moyen des professions intermédiaires en 2022 (€);;;NUM;16
+SNHME22;Salaire net hor. moy. employés en 2022 (€);Salaire net horaire moyen des employés en 2022 (€);;;NUM;16
+SNHMO22;Salaire net hor. moy. ouvriers en 2022 (€);Salaire net horaire moyen des ouvriers en 2022 (€);;;NUM;16
+SNHMF22;Salaire net horaire moyen F en 2022 (€);Salaire net horaire moyen des femmes en 2022 (€);;;NUM;16
+SNHMFC22;Salaire net hor. moy. F cadres sup. en 2022 (€);Salaire net horaire moyen des femmes cadres, professions intellectuelles supérieures et des chefs d'entreprises salariés en 2022 (€);;;NUM;16
+SNHMFP22;Salaire net hor. moy. F prof inter. en 2022 (€);Salaire net horaire moyen des femmes exerçant une profession intermédiaire en 2022 (€);;;NUM;16
+SNHMFE22;Salaire net hor. moy. F employés en 2022 (€);Salaire net horaire moyen des femmes employées en 2022 (€);;;NUM;16
+SNHMFO22;Salaire net hor. moy. F ouvriers en 2022 (€);Salaire net horaire moyen des femmes ouvrières en 2022 (€);;;NUM;16
+SNHMH22;Salaire net horaire moyen H en 2022 (€);Salaire net horaire moyen des hommes en 2022 (€);;;NUM;16
+SNHMHC22;Salaire net hor. moy. H cadres sup. en 2022 (€);Salaire net horaire moyen des hommes cadres, professions intellectuelles supérieures et des chefs d'entreprises salariés en 2022 (€);;;NUM;16
+SNHMHP22;Salaire net hor. moy. H prof inter. en 2022 (€);Salaire net horaire moyen des hommes exerçant une profession intermédiaire en 2022 (€);;;NUM;16
+SNHMHE22;Salaire net hor. moy. H employés en 2022 (€);Salaire net horaire moyen des hommes employés en 2022 (€);;;NUM;16
+SNHMHO22;Salaire net hor. moy. H ouvriers en 2022 (€);Salaire net horaire moyen des hommes ouvriers en 2022 (€);;;NUM;16
+SNHM1822;Salaire net horaire moyen 18 à 25 ans en 2022 (€);Salaire net horaire moyen des personnes de 18 à 25 ans en 2022 (€);;;NUM;16
+SNHM2622;Salaire net horaire moyen 26 à 50 ans en 2022 (€);Salaire net horaire moyen des personnes de 26 à 50 ans en 2022 (€);;;NUM;16
+SNHM5022;Salaire net horaire moyen plus de 50 ans en 2022 (€);Salaire net horaire moyen des personnes de plus de 50 ans en 2022 (€);;;NUM;16
+SNHMF1822;Salaire net horaire moyen F 18 à 25 ans en 2022 (€);Salaire net horaire moyen des femmes de 18 à 25 ans en 2022 (€);;;NUM;16
+SNHMF2622;Salaire net horaire moyen F 26 à 50 ans en 2022 (€);Salaire net horaire moyen des femmes de 26 à 50 ans en 2022 (€);;;NUM;16
+SNHMF5022;Salaire net horaire moyen F plus de 50 ans en 2022 (€);Salaire net horaire moyen des femmes plus de 50 ans en 2022 (€);;;NUM;16
+SNHMH1822;Salaire net horaire moyen H 18 à 25 ans en 2022 (€);Salaire net horaire moyen des hommes  de 18 à 25 ans en 2022 (€);;;NUM;16
+SNHMH2622;Salaire net horaire moyen H 26 à 50 ans en 2022 (€);Salaire net horaire moyen des hommes de 26 à 50 ans en 2022 (€);;;NUM;16
+SNHMH5022;Salaire net horaire moyen H plus de 50 ans en 2022 (€);Salaire net horaire moyen des hommes de plus de 50 ans en 2022 (€);;;NUM;16
+CODGEO;Code géographique;Code de la zone géographique;01;Ain;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;02;Aisne;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;03;Allier;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;04;Alpes-de-Haute-Provence;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;05;Hautes-Alpes;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;06;Alpes-Maritimes;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;07;Ardèche;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;08;Ardennes;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;09;Ariège;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;10;Aube;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;11;Aude;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;12;Aveyron;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;13;Bouches-du-Rhône;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;14;Calvados;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;15;Cantal;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;16;Charente;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;17;Charente-Maritime;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;18;Cher;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;19;Corrèze;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;21;Côte-d'Or;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;22;Côtes-d'Armor;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;23;Creuse;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;24;Dordogne;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;25;Doubs;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;26;Drôme;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;27;Eure;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;28;Eure-et-Loir;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;29;Finistère;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;2A;Corse-du-Sud;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;2B;Haute-Corse;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;30;Gard;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;31;Haute-Garonne;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;32;Gers;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;33;Gironde;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;34;Hérault;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;35;Ille-et-Vilaine;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;36;Indre;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;37;Indre-et-Loire;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;38;Isère;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;39;Jura;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;40;Landes;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;41;Loir-et-Cher;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;42;Loire;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;43;Haute-Loire;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;44;Loire-Atlantique;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;45;Loiret;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;46;Lot;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;47;Lot-et-Garonne;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;48;Lozère;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;49;Maine-et-Loire;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;50;Manche;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;51;Marne;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;52;Haute-Marne;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;53;Mayenne;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;54;Meurthe-et-Moselle;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;55;Meuse;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;56;Morbihan;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;57;Moselle;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;58;Nièvre;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;59;Nord;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;60;Oise;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;61;Orne;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;62;Pas-de-Calais;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;63;Puy-de-Dôme;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;64;Pyrénées-Atlantiques;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;65;Hautes-Pyrénées;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;66;Pyrénées-Orientales;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;67;Bas-Rhin;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;68;Haut-Rhin;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;69;Rhône;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;70;Haute-Saône;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;71;Saône-et-Loire;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;72;Sarthe;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;73;Savoie;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;74;Haute-Savoie;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;75;Paris;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;76;Seine-Maritime;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;77;Seine-et-Marne;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;78;Yvelines;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;79;Deux-Sèvres;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;80;Somme;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;81;Tarn;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;82;Tarn-et-Garonne;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;83;Var;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;84;Vaucluse;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;85;Vendée;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;86;Vienne;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;87;Haute-Vienne;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;88;Vosges;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;89;Yonne;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;90;Territoire de Belfort;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;91;Essonne;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;92;Hauts-de-Seine;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;93;Seine-Saint-Denis;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;94;Val-de-Marne;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;95;Val-d'Oise;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;971;Guadeloupe;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;972;Martinique;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;973;Guyane;CHAR;3
+CODGEO;Code géographique;Code de la zone géographique;974;La Réunion;CHAR;3
